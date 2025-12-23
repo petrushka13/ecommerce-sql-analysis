@@ -9,12 +9,12 @@ All data was loaded from CSV files and analyzed using SQL.
 
 ---
 
-## 1. Total Revenue
+1. Total Revenue
 
-### Business Question
+Business Question
 How much total revenue did the company generate?
 
-### SQL Query
+SQL Query
 ```sql
 SELECT
     SUM(quantity * price) AS total_revenue
@@ -129,4 +129,5 @@ within a practical business context.
 
 The focus of the project is not only SQL syntax,
 but also analytical thinking, data interpretation,
+
 and clear communication of insights.
