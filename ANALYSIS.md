@@ -15,7 +15,7 @@ Business Question
 How much total revenue did the company generate?
 
 SQL Query
-```sql
+
 SELECT
     SUM(quantity * price) AS total_revenue
 FROM order_items;
@@ -131,3 +131,4 @@ The focus of the project is not only SQL syntax,
 but also analytical thinking, data interpretation,
 
 and clear communication of insights.
+
